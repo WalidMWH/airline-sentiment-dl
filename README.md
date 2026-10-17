@@ -21,12 +21,15 @@ This project was developed during my AI internship at **Software Persona**, for 
 | Key finding | Word order (BiLSTM) gave no gain over a bag-of-words baseline |
 | Data issue found | A find-and-replace artifact in the dataset ("late" became "Late Flight") |
 
+**Full report:** [Airline_Sentiment_Report_Walid_Halabi.pdf](report/Airline_Sentiment_Report_Walid_Halabi.pdf)
+
 ## Repository Structure
 
 ```
 airline_sentiment_dl/
 ├── Airline_Sentiment_DL.ipynb   Full pipeline with outputs
 ├── figures/                     All charts used in this README
+├── report/                      Final project report (PDF)
 ├── LICENSE
 └── README.md
 ```
