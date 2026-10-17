@@ -2,7 +2,10 @@
 
 Classifies tweets sent to US airlines as **negative**, **neutral** or **positive** using deep learning (TensorFlow/Keras). An embedding + average-pooling baseline is compared against a bidirectional LSTM.
 
-![Python](https://img.shields.io/badge/Python-3-blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-orange) ![Colab](https://img.shields.io/badge/Run%20on-Google%20Colab-yellow)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WalidMWH/airline-sentiment-dl/blob/main/Airline_Sentiment_DL.ipynb)
+![Python](https://img.shields.io/badge/Python-3-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## About the Task
 
@@ -10,7 +13,7 @@ This project was developed during my AI internship at **Software Persona**, for 
 
 **Highlights**
 
-| | |
+| Item | Result |
 | --- | --- |
 | Dataset | 14,640 airline tweets, 3 imbalanced classes |
 | Best macro F1 | 0.706 (majority-class reference: 0.258) |
@@ -24,13 +27,14 @@ This project was developed during my AI internship at **Software Persona**, for 
 airline_sentiment_dl/
 ├── Airline_Sentiment_DL.ipynb   Full pipeline with outputs
 ├── figures/                     All charts used in this README
+├── LICENSE
 └── README.md
 ```
 
 ## How to Run
 
 1. Download `Tweets.csv` from [Kaggle: Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment). The dataset is not included in this repository.
-2. Open `Airline_Sentiment_DL.ipynb` in [Google Colab](https://colab.research.google.com/).
+2. Click the **Open In Colab** badge above, or open `Airline_Sentiment_DL.ipynb` in [Google Colab](https://colab.research.google.com/).
 3. Select **Runtime > Change runtime type > T4 GPU**.
 4. Select **Runtime > Run all** and upload `Tweets.csv` when prompted.
 
@@ -196,4 +200,6 @@ Suggested improvements, ordered by the errors they address:
 
 **Author:** Walid Halabi ([@WalidMWH](https://github.com/WalidMWH)) · AI Engineering student, Bahçeşehir University
 
-**Dataset:** [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment), originally published by Figure Eight (CrowdFlower), via Kaggle.
+**Dataset:** [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment), originally published by Figure Eight (CrowdFlower), via Kaggle. The dataset is subject to its own license on Kaggle.
+
+**License:** The code in this repository is released under the [MIT License](LICENSE).
