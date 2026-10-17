@@ -21,12 +21,12 @@ This project was developed during my AI internship at **Software Persona**, for 
 | Key finding | Word order (BiLSTM) gave no gain over a bag-of-words baseline |
 | Data issue found | A find-and-replace artifact in the dataset ("late" became "Late Flight") |
 
-**Full report:** [Airline_Sentiment_Report_Walid_Halabi.pdf](report/Airline_Sentiment_Report_Walid_Halabi.pdf)
+**Full report:** [Airline_Sentiment_Report.pdf](report/Airline_Sentiment_Report.pdf)
 
 ## Repository Structure
 
 ```
-airline_sentiment_dl/
+airline-sentiment-dl/
 ├── Airline_Sentiment_DL.ipynb   Full pipeline with outputs
 ├── figures/                     All charts used in this README
 ├── report/                      Final project report (PDF)
@@ -201,7 +201,7 @@ Suggested improvements, ordered by the errors they address:
 
 ---
 
-**Author:** Walid Halabi ([@WalidMWH](https://github.com/WalidMWH)) · AI Engineering student, Bahçeşehir University
+**Author:** WALID M. W. KOBAHALABI ([@WalidMWH](https://github.com/WalidMWH)) · AI Internship, Software Persona
 
 **Dataset:** [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment), originally published by Figure Eight (CrowdFlower), via Kaggle. The dataset is subject to its own license on Kaggle.
 
